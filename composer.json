@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "a9f\\TYPO3JsonLogger\\": "src/"
-        }
+        },
+	"files": [
+	    "_register.php"
+	]
     },
     "require": {
         "php": "^8.3",
